@@ -77,7 +77,7 @@ def run():
    
 
     #Run the model
-    mdl = fao.Model('2024-158','2024-183', par, wth, irr=irr, aq_Ks=True,
+    mdl = fao.Model('2024-158','2024-188', par, wth, irr=irr, aq_Ks=True,
                     comment = 'btk 2024 basil trial')
     mdl.run()
     print(mdl)

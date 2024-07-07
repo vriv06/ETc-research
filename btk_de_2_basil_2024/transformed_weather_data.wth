@@ -1,7 +1,7 @@
 ************************************************************************
 pyfao56: FAO-56 Evapotranspiration in Python
 Weather Data
-Timestamp: 07/02/2024 13:13:57
+Timestamp: 04/02/2024 11:37:54
 ************************************************************************
 Comments:
 ************************************************************************
@@ -11,30 +11,35 @@ Comments:
    2.0000000 Wind speed measurement height (m)
 
 Daily weather data:
-Year-DOY   Srad   Tmax   Tmin   Vapr   Tdew  RHmax  RHmin  Wndsp   Rain  ETref   MorP
-2024-158  22.90  23.70  11.10    NaN    NaN  98.70  50.60   0.50   0.00    NaN      M
-2024-159  27.03  23.10  10.80    NaN    NaN  97.80  48.60   0.50   0.00    NaN      M
-2024-160  20.82  24.40  10.10    NaN    NaN  96.60  54.60   0.50   0.00    NaN      M
-2024-161  20.48  21.00  13.90    NaN    NaN  97.10  55.90   0.50   0.00    NaN      M
-2024-162  26.09  21.20  11.60    NaN    NaN  79.50  42.60   0.50   0.00    NaN      M
-2024-163  17.77  16.00   8.20    NaN    NaN  84.30  45.50   0.50   0.00    NaN      M
-2024-164  21.01  17.70   6.00    NaN    NaN  95.90  41.30   0.50   0.00    NaN      M
-2024-165  26.40  19.60   7.70    NaN    NaN  96.90  40.90   0.50   0.00    NaN      M
-2024-166   0.00  19.70  10.10    NaN    NaN  90.50  60.90   0.50   0.00    NaN      M
-2024-167  21.85  19.40  11.60    NaN    NaN  97.20  49.60   0.50   0.00    NaN      M
-2024-168  24.00  22.40  10.90    NaN    NaN  88.30  43.60   0.50   0.00    NaN      M
-2024-169  14.47  21.40  13.00    NaN    NaN  94.60  62.70   0.50   0.00    NaN      M
-2024-170  26.04  29.50  11.80    NaN    NaN  97.90  37.90   0.50   0.00    NaN      M
-2024-171  21.29  24.60  16.80    NaN    NaN  97.40  66.70   0.50   0.00    NaN      M
-2024-172  15.49  26.00  16.30    NaN    NaN  92.10  68.60   0.50   0.00    NaN      N
-2024-173  10.15  24.20  15.80    NaN    NaN  97.80  61.40   0.50   0.00    NaN      O
-2024-174  16.46  21.10  11.90    NaN    NaN  94.70  62.50   0.50   0.00    NaN      P
-2024-175  16.42  22.10  12.70    NaN    NaN  97.60  61.50   0.50   0.00    NaN      Q
-2024-176  26.36  25.60  13.00    NaN    NaN  97.30  49.50   0.50   0.00    NaN      R
-2024-177  30.59  27.40  13.50    NaN    NaN  91.80  45.30   0.50   0.00    NaN      S
-2024-178  16.91  25.70  14.80    NaN    NaN  97.10  59.90   0.50   0.00    NaN      T
-2024-179  23.32  28.40  17.70    NaN    NaN  98.40  55.60   0.50   0.00    NaN      U
-2024-180  21.39  27.00  17.60    NaN    NaN  94.40  63.60   0.50   0.00    NaN      V
-2024-181  23.13  31.60  17.10    NaN    NaN  97.10  53.40   0.50   0.00    NaN      W
-2024-182   9.75  22.70  13.70    NaN    NaN  93.30  72.90   0.50   0.00    NaN      X
-2024-183  13.03  20.40  12.40    NaN    NaN  96.90  68.40   0.50   0.00    NaN      Y
+Year-DOY    Srad   Tmax   Tmin   Vapr   Tdew   RHmax   RHmin   Wndsp   Rain   ETref   MorP
+2024-158  22.90  23.70  11.10    nan    nan  98.70  50.60   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-159  27.03  23.10  10.80    nan    nan  97.80  48.60   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-160  20.82  24.40  10.10    nan    nan  96.60  54.60   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-161  20.48  21.00  13.90    nan    nan  97.10  55.90   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-162  26.09  21.20  11.60    nan    nan  79.50  42.60   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-163  17.77  16.00   8.20    nan    nan  84.30  45.50   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-164  21.01  17.70   6.00    nan    nan  95.90  41.30   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-165  26.40  19.60   7.70    nan    nan  96.90  40.90   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-166   0.00  19.70  10.10    nan    nan  90.50  60.90   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-167  21.85  19.40  11.60    nan    nan  97.20  49.60   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-168  24.00  22.40  10.90    nan    nan  88.30  43.60   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-169  14.47  21.40  13.00    nan    nan  94.60  62.70   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-170  26.04  29.50  11.80    nan    nan  97.90  37.90   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-171  21.29  24.60  16.80    nan    nan  97.40  66.70   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-172  15.49  26.00  16.30    nan    nan  92.10  68.60   0.50   0.00    nan      N nan nan nan nan nan nan nan
+2024-173  10.15  24.20  15.80    nan    nan  97.80  61.40   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-174  16.46  21.10  11.90    nan    nan  94.70  62.50   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-175  16.42  22.10  12.70    nan    nan  97.60  61.50   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-176  26.36  25.60  13.00    nan    nan  97.30  49.50   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-177  30.59  27.40  13.50    nan    nan  91.80  45.30   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-178  16.91  25.70  14.80    nan    nan  97.10  59.90   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-179  23.32  28.40  17.70    nan    nan  98.40  55.60   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-180  21.39  27.00  17.60    nan    nan  94.40  63.60   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-181  23.13  31.60  17.10    nan    nan  97.10  53.40   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-182   9.75  22.70  13.70    nan    nan  93.30  72.90   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-183  13.03  20.40  12.40    nan    nan  96.90  68.40   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-184   9.40  23.80  22.40    nan    nan  47.00  41.00   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-185   8.01  22.30  21.89    nan    nan  48.29  47.29   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-186  15.58  29.20  16.70    nan    nan  94.59  34.00   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-187  23.87  36.00  16.39    nan    nan  99.80  17.00   0.50   0.00    nan      M nan nan nan nan nan nan nan
+2024-188  14.59  38.29  16.70    nan    nan  99.90  20.00   0.50   0.00    nan      M nan nan nan nan nan nan nan
