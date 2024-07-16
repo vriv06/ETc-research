@@ -79,12 +79,13 @@ def run():
     irr.addevent(2024, 194, 3.855, 0.30)
     irr.addevent(2024, 195, 3.385, 0.30)
     irr.addevent(2024, 196, 3.640, 0.30)
+    irr.addevent(2024, 197, 4.810, 0.30)
     irr.savefile(os.path.join(module_dir,'btkdebasil2024.irr'))
     irr.loadfile(os.path.join(module_dir,'btkdebasil2024.irr'))
    
 
     #Run the model
-    mdl = fao.Model('2024-158','2024-196', par, wth, irr=irr, aq_Ks=True,
+    mdl = fao.Model('2024-158','2024-197', par, wth, irr=irr, aq_Ks=True,
                     comment = 'btk 2024 basil trial')
     mdl.run()
     print(mdl)
