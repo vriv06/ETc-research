@@ -1,20 +1,20 @@
 ************************************************************************
 pyfao56: FAO-56 Evapotranspiration in Python
 Seasonal Water Balance Summary
-Timestamp: 07/17/2024 08:49:09
+Timestamp: 07/18/2024 09:47:00
 Simulation start date: 06/06/2024
-Simulation end date: 07/16/2024
+Simulation end date: 07/17/2024
 All values expressed in mm.
 ************************************************************************
 Comments: btk 2024 basil trial
 ************************************************************************
- 155.967 : ETref
-  95.534 : ETc
-  95.534 : ETcadj
+ 160.893 : ETref
+ 100.494 : ETc
+ 100.494 : ETcadj
    0.000 : E
-  95.534 : T
-   3.534 : DP
-  41.780 : Irrig
+ 100.494 : T
+   3.935 : DP
+  47.140 : Irrig
    0.000 : IrrLoss
    0.000 : Rain
    0.000 : Runoff
