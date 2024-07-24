@@ -94,7 +94,7 @@ def run():
 
     #Run the model
     mdl = fao.Model('2024-158','2024-205', par, wth, irr=irr, aq_Ks=True,
-                    comment = 'btk 2024 basil trial')
+                    comment = 'btk DE 2024 basil trial 2')
     mdl.run()
     print(mdl)
     mdl.savefile(os.path.join(module_dir,'btkdebasil2024.out'))
